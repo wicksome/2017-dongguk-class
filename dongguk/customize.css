@@ -1,0 +1,231 @@
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css');
+@import url('http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css');
+@import url('http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css');
+@import url('http://fonts.googleapis.com/earlyaccess/nanumpenscript.css');
+@import url('http://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+.reveal {
+    color: #FFFFFF !important;
+    font-family: "Nanum Barun Gothic", "Droid Serif", serif !important;
+    background-color: #202020;
+    background-image: url(img/background.png);
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    color: #FFFFFF;
+    margin: 0 0 20px;
+    font-family: "Nanum Barun Gothic", serif;
+    line-height: .9em;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -epub-hyphens: none;
+    hyphens: none;
+    text-transform: none;
+}
+
+.reveal h2 {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.7em;
+}
+
+.reveal h3 {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.reveal .progress span {
+    background: #8ee082;
+}
+
+.reveal .title-slide .container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, .55);
+    color: #FFFFFF;
+}
+
+.reveal .title-slide .container h1, .reveal .title-slide .container h3 {
+    font-family: 'Nanum Barun Gothic' !important;
+    line-height: 1.25em;
+    color: #FFFFFF;
+}
+
+.reveal .title-slide .container h1 {
+    font-size: 1.8em !important;
+}
+
+.reveal hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #fff, rgba(255, 255, 255, 0));
+}
+
+.reveal .introduction .container img {
+    border-radius: 50%;
+    border: 4px solid #758173;
+}
+
+.reveal .introduction .container {
+    width: 70%;
+    margin: 120px auto 120px;
+    background-color: #fff;
+    padding: 30px 0 30px 0;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.075);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.075);
+    text-align: center;
+    color: #000;
+    font–family: 'Nanum Gothic';
+}
+
+.reveal .content .container {
+    width: 70%;
+    margin: 120px auto 120px;
+    background-color: #fff;
+    padding: 30px 0 30px 0;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.075);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.075);
+    text-align: center;
+    color: #000 !important;
+    font–family: 'Nanum Gothic';
+}
+
+.reveal .introduction .container h4 {
+    font-size: 1em;
+    color: #354232;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: italic;
+    font-family: "Nanum Barun Gothic", "Droid Serif", serif;
+}
+
+.reveal .introduction .container div {
+    /*border-top: 1px solid #555555;*/
+    padding: 0px 0 15px 0;
+}
+
+.reveal .introduction .container table {
+    font-size: .5em;
+    color: #354232;
+    /*font–family: 'Nanum Gothic'*/
+    font-family: 'Nanum Barun Gothic' !important;
+    margin-top: 10px;
+}
+
+.reveal .introduction .container table td {
+    font-size: 0.8em;
+    border-bottom: 0px;
+}
+
+.reveal .introduction .container table .date {
+    font-family: "Nanum Barun Gothic", "Droid Serif", serif;
+}
+
+.reveal .introduction .container .job {
+    font-family: "Nanum Barun Gothic", "Droid Serif", serif;
+    color: #758173;
+    /*font–family: 'Nanum Barun Gothic' !important;*/
+    font-size: .4em;
+}
+
+.blurry-text {
+    color: transparent;
+    text-shadow: 0 0 9px rgba(255, 255, 255, 0.5);
+}
+
+.tag-clould .base-div {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .15);
+    text-align: center;
+}
+
+.tag-clould a {
+    font-size: .5em;
+}
+
+.tag-clould ul {
+    margin: 20px;
+    list-style-type: none;
+}
+
+.tag-clould li {
+    font-family: "Nanum Barun Gothic", "Droid Serif", serif;
+    float: left;
+}
+
+.tag-clould ul li a {
+    text-decoration: none;
+    line-height: 2.3em;
+}
+
+.tag-clould ul li a.size1 {
+    color: #666;
+    padding: 2px;
+}
+
+.tag-clould ul li a.size1:hover {
+    background-color: #999;
+    color: white;
+}
+
+.tag-clould ul li a.size2 {
+    color: #912600;
+    padding: 12px;
+}
+
+.tag-clould ul li a.size2:hover {
+    background-color: #cc3500;
+    color: white;
+}
+
+.tag-clould ul li a.size3 {
+    color: #877900;
+    padding: 18px;
+}
+
+.tag-clould ul li a.size3:hover {
+    background-color: #d8c100;
+    color: white;
+}
+
+.tag-clould ul li a.size4 {
+    color: #1d6c01;
+    padding: 8px;
+}
+
+.tag-clould ul li a.size4:hover {
+    background-color: #2daf00;
+    color: white;
+}
+
+.tag-clould ul li a.size5 {
+    color: #004e6b;
+    padding: 6px;
+}
+
+.tag-clould ul li a.size5:hover {
+    background-color: #007ead;
+    color: white;
+}
+
+.tag-clould ul li a.size6 {
+    color: #430069;
+    padding: 24px;
+}
+
+.tag-clould li a.size6:hover {
+    background-color: #7600b9;
+    color: white;
+}
