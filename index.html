@@ -16,6 +16,15 @@
 					A paragraph with some text and a [link](http://hakim.se).
 				</script>
 			</section>
+			<section>
+				<pre><code data-trim data-noescape>
+			(def lazy-fib
+			  (concat
+			   [0 1]
+			   <mark>((fn rfib [a b]</mark>
+					(lazy-cons (+ a b) (rfib b (+ a b)))) 0 1)))
+				</code></pre>
+			</section>
 			<section>Slide 1</section>
 			<section>Slide 2</section>
 
@@ -31,6 +40,7 @@
 				{ src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
 				{ src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 				{ src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: '../reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 				{ src: 'reveal.js/plugin/elapsed-time-bar/elapsed-time-bar.js'}
 			]
 		});
